@@ -8,8 +8,6 @@ params={'dataType':"rhrread"}
 def poll(url,params):
     try:
         response = requests.get(url,params)
-        # print(response.text)
-        # print(response.headers)
     except FileNotFoundError as e:
         raise e
     else:
