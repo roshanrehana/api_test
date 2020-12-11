@@ -13,12 +13,7 @@ def poll(url,params):
     except FileNotFoundError as e:
         raise e
     else:
-        resp = response.json()
-        # resp = {1:1,2:3}
-        print(resp.values())
         return response
-
-poll(url,params)
 
 # Using pytest fixtures allows you to plugin these methods directly into the test methods below as required
 @pytest.fixture
