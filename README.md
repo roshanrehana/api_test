@@ -8,9 +8,6 @@ I will be using python 3.9 to test the api. I am using the below libraries and t
 You can use the requirements.txt file in the package to install these libraries using pip 
 pip install -r requirements.txt 
 
-Please refer the github repository below for the code -
-https://github.com/roshanrehana/api_test
-
 Test cases are as below -
 1. Test the http response
 2. Test whether the response is taking less than a second to come back
