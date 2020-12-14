@@ -16,5 +16,5 @@ Test cases are as below -
 
 Sample test run output -
 Please install the python libraries pytest and requests before running these tests
-To run the tests, run the following command from the directory where the api_test.py file is saved 
+To run the tests, run the following command from the directory where the api_test.py file is saved
 pytest -v api_test.py
